@@ -1,1 +1,2 @@
 # rdip
+#LOGGING ISSUES 
