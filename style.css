@@ -1,0 +1,78 @@
+.label-radio{
+	display: inline;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 3px solid black;
+   width: 40%;
+   height:30px;
+   text-align: center;
+   font-weight: bold;
+}
+input[type=submit] ,[type=reset]
+{
+	border-radius: 1px;
+	
+	display: inline;
+	float: left;
+	text-align: left;
+
+}
+input[type=checkbox]
+{
+	display: inline;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+}
+input[type=text] ,[type=email],[type=number]{
+	box-shadow: inset 10px 10px 10px 10px #f9f9f9;
+  background-color: #f1f1f1;
+  box-sizing: border-box; 
+  border-color: black; 
+  border: 1px solid black;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: text;
+}
+label {
+	 
+	 
+	 float: left;
+    width: 130px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+input {
+    float: left;
+    vertical-align:middle;
+    margin-left:30px
+}
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
