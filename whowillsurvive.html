@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="task_4_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src = "script.js"></script>
+	<title></title>
+</head>
+<body>
+<p><h2> WHO WILL SURVIVE GAME? </h2>
+	<h3> Click on start to generate two random numbers between (0 - 1000) and find who wins !</h3>
+	<form id = "form4" action = "#" onsubmit="whowillsurvive()">
+	<div class="container" id = "inputGame" style="display: none; margin-left: 10%">
+	<p><input type = "text" id = "input1" disabled="true"></p>
+	<p><input type = "text" id = "input2" disabled="true"></p>
+	</div>
+	<div><p id  = "winner"></p></div>
+	<div> <p> <input type="submit" class = "btn btn-dark "id = "submit4"name="start" value="start" ></p></div>
+	<div id = "winnerbutton" style = "display: none;"> 
+		<p>
+		 <button class = "btn btn-dark "id = "winner" name="start" value="check winner" onclick="checkWinner()"> 
+		 CHECK WINNER
+		 </button>
+		 </p>
+	</div>
+</form>
+
+</body>
+</html>

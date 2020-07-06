@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="task_1_style.css">
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src = "script.js"></script>
+	
+	<title></title>
+</head>
+<body>
+	<h1> Calculator Application </h1>
+		
+		<div id = "inputs" style="text-align: center; margin-left: 10% ">
+			 	<h4 style="margin-top: 40px;color: grey" > Input operands : </h4>
+			 	<form id = "form1" action = "#" onsubmit = "return calculate()">
+			 		<p><input type="number" id="input1" > </p>
+			 		<p><input type="number" id="input2" ></p>
+			 		<h3 style="margin-top: 30px;color: grey">Select the operation : </h3>
+	 				<select id = "operation">
+						<option id = "add"> Addition </option>
+						<option id = "sub"> Subtraction </option>
+						<option id = "mul"> Multiplication </option>
+						<option id = "div"> Division </option>
+						<option id = "abs"> Absolute </option>
+						<option id = "percent"> Percentage </option>
+						<option id = "sqrt"> SquareRoot </option>
+					</select>
+					<input type = "submit" value = "calculate">
+			 	</form>
+	
+    <p > <h3>Result of the selected operation is  : <h3><br>
+
+    <p id = "result"></p>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="task_3_style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src = "script.js"></script>
+	<title></title>
+</head>
+<body>
+		<h2 style="text-align: center;"> String Validation </h2><br>
+<form id = "form2" action = "#" onsubmit="return isPalindrome()">
+	<p>Input a string to check palindrome : <br>
+		<input type="text" id = "inputStr" ></p>
+	<p><input type="submit" id = "submit" name="submit" value="submit" class="btn btn-dark"></p><br>
+</form>
+
+<form id = "form3" action = "#" onsubmit="return isAnagram()">
+	<p>Check anagrams : <br>
+		Input a list of string seperated by space : 
+		<input type="text" id = "inputList" ><br>
+		Input a string to check anagram :
+		<input type="text" id = "inputStr" ></p><br>
+	<p><input type="submit" id = "submitAnagram" name="submit" value="submit" class="btn btn-dark"></p>
+</form>
+
+</body>
+</html>
